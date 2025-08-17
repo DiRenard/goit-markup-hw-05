@@ -722,7 +722,6 @@ img {
 .check-input:checked + .check-text .custom-checkbox {
   background-color: var(--ocean);
   border: none;
-  fill: var(--cloud);
 }
 
 .check-text {
