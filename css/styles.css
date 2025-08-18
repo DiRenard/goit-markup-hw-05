@@ -568,8 +568,6 @@ ul {
 
 /* Modal Window */
 
-/* Modal Window */
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -731,17 +729,32 @@ ul {
 }
 
 span.custom-checkbox {
-  display: inline-flex;
+  display: inline-flex; 
   justify-content: center;
   align-items: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+span.custom-checkbox::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: var(--white-background-color);
+  display: block;
+  border-radius: 1px;
+  opacity: 0; 
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+.check-input:checked + .check-text .custom-checkbox::before {
+  opacity: 1;
 }
 
 .check-input:checked + .check-text .custom-checkbox {
