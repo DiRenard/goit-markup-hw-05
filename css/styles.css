@@ -729,8 +729,6 @@ ul {
   color: var(--light-slate-color);
 }
 
-/* Оновлені стилі для чекбокса */
-
 .custom-checkbox {
   width: 16px;
   height: 16px;
@@ -781,4 +779,9 @@ ul {
   cursor: pointer;
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-button:hover,
+.send-button:focus {
+  background-color: var(--pressed-state-color);
 }
