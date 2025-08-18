@@ -549,7 +549,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-background-color);
-  background: var(--primary-brand-color);
+  background-color: var(--primary-brand-color);
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -752,6 +752,7 @@ ul {
   color: var(--primary-brand-color);
   text-decoration: underline;
 }
+
 
 .send-button {
   display: block;
