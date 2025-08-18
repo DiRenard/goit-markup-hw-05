@@ -784,3 +784,8 @@ ul {
   visibility: hidden;
   opacity: 0;
 }
+
+.backdrop.is-open {
+  visibility: visible;
+  opacity: 1;
+}
