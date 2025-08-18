@@ -747,7 +747,10 @@ ul {
 .check-input:checked + .check-text .custom-checkbox {
   background-color: var(--pressed-state-color);
   border: none;
-  fill: var(--light-color);
+}
+
+.check-input:checked + .check-text .custom-checkbox svg {
+  fill: var(--light-color); 
 }
 
 .privacy-link {
