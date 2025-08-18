@@ -743,7 +743,7 @@ ul {
 }
 
 .check-text {
-  display: flex;
+  /* display: flex;  властивість видалено */
   align-items: center;
   gap: 8px;
   font-size: 12px;
