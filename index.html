@@ -332,7 +332,7 @@
               <div class="portfolio-image-wrapper">
                 <img
                   src="./images/meditation-app.jpg"
-                  alt="Meditation app screen on a laptop"
+                  alt="Meditation app interface on a laptop"
                   width="360"
                   height="300"
                 />
@@ -351,7 +351,7 @@
               <div class="portfolio-image-wrapper">
                 <img
                   src="./images/taxi-service.jpg"
-                  alt="Smartphone displaying taxi service app in a car"
+                  alt="Taxi service app on a car dashboard"
                   width="360"
                   height="300"
                 />
@@ -370,7 +370,7 @@
               <div class="portfolio-image-wrapper">
                 <img
                   src="./images/screen-illustrations.jpg"
-                  alt="Various illustrations displayed on phone screens"
+                  alt="Screen illustrations on a smartphone"
                   width="360"
                   height="300"
                 />
@@ -389,7 +389,7 @@
               <div class="portfolio-image-wrapper">
                 <img
                   src="./images/online-courses.jpg"
-                  alt="Woman smiling while using a smartphone for online courses"
+                  alt="Girl in orange sweater listening to music"
                   width="360"
                   height="300"
                 />
@@ -417,7 +417,7 @@
           >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
-            digital marketing and growth solutions.
+            digital marketing & growth solutions.
           </p>
         </div>
         <div class="footer-social-media-wrapper">
@@ -458,13 +458,13 @@
           <form class="subscribe-form">
             <label class="subscribe-label">
               <input
-                type="email"
-                name="user-email"
                 class="subscribe-input"
+                type="email"
+                name="email"
                 placeholder="E-mail"
               />
             </label>
-            <button type="submit" class="subscribe-button">
+            <button class="subscribe-button" type="submit">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
@@ -474,11 +474,12 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden">
+
+    <div class="backdrop is-open">
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
+            <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -489,11 +490,11 @@
               <input
                 type="text"
                 name="user-name"
-                class="modal-input"
                 id="user-name"
+                class="modal-input"
               />
               <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-person"></use>
+                <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
           </div>
@@ -501,13 +502,13 @@
             <label for="user-phone" class="modal-label">Phone</label>
             <div class="input-wrapper">
               <input
-                type="tel"
+                type="text"
                 name="user-phone"
-                class="modal-input"
                 id="user-phone"
+                class="modal-input"
               />
               <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
           </div>
@@ -515,17 +516,17 @@
             <label for="user-email" class="modal-label">Email</label>
             <div class="input-wrapper">
               <input
-                type="email"
+                type="text"
                 name="user-email"
-                class="modal-input"
                 id="user-email"
+                class="modal-input"
               />
               <svg class="modal-icon" width="18" height="24">
-                <use href="./images/icons.svg#icon-email"></use>
+                <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
-          <div class="modal-form-field comment-field">
+          <div class="comment-field">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
@@ -534,7 +535,6 @@
               placeholder="Text input"
             ></textarea>
           </div>
-
           <div class="modal-form-check">
             <input
               type="checkbox"
@@ -546,14 +546,13 @@
             <label for="user-privacy" class="check-text">
               <span class="custom-checkbox">
                 <svg class="check-icon" width="10" height="8">
-                  <use href="images/icons.svg#icon-full-check"></use>
+                  <use href="./images/icons.svg#icon-full-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
               <a href="" class="privacy-link"> Privacy Policy </a>
             </label>
           </div>
-
           <button type="submit" class="send-button">Send</button>
         </form>
       </div>
