@@ -729,7 +729,7 @@ ul {
   color: var(--light-slate-color);
 }
 
-.custom-checkbox {
+span.custom-checkbox {
   display: inline-flex;
   justify-content: center;
   align-items: center;
