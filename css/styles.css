@@ -782,8 +782,7 @@ ul {
 
 .check-icon {
   fill: transparent;
-   width: 8;
-    height: 8;
+   
 }
 
 .check-input:checked + .check-text .custom-checkbox .check-icon {
